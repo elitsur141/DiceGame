@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43de318a-31e7-4c99-bfa0-1afebd217599" name="Changes" comment="Created a new window for the front end which displays instructions, the winner of each round, and the winner of the game.">
+    <list default="true" id="43de318a-31e7-4c99-bfa0-1afebd217599" name="Changes" comment="The images of the dice show up and represent the numbers rolled by the players.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Die.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Die.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameViewer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
@@ -81,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675883411665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="The images of the dice show up and represent the numbers rolled by the players.">
+      <created>1676002700303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676002700303</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,7 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created a new window for the front end which displays instructions, the winner of each round, and the winner of the game." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a new window for the front end which displays instructions, the winner of each round, and the winner of the game." />
+    <MESSAGE value="The images of the dice show up and represent the numbers rolled by the players." />
+    <option name="LAST_COMMIT_MESSAGE" value="The images of the dice show up and represent the numbers rolled by the players." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DiceGame$Game.ic" NAME="Game Coverage Results" MODIFIED="1675717901073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

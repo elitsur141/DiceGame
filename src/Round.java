@@ -5,7 +5,6 @@ This class is in charge of playing a round
 import java.util.Scanner;
 public class Round
 {
-    // Instance variables for the round
     private Player player1;
     private Player player2;
     private Die d1, d2;
@@ -37,11 +36,9 @@ public class Round
         // While the round is not over
         while (player1.getPoints() < 5 && player2.getPoints() < 5)
         {
-            // Player1 rolls dice
+            // User's turn
             int p1d1 = d1.roll();
             int p1d2 = d2.roll();
-            //d1.setLastRoll(p1d1);
-            //d2.setLastRoll(p1d2);
             int player1Roll = p1d1 + p1d2;
             viewer.repaint();
             System.out.println(player1.getName() + "'s turn:");
@@ -51,7 +48,8 @@ public class Round
             System.out.println("Number rolled: " + player1Roll);
             rolls(player1, player1Roll);
             input.nextLine();
-            // Player2 rolls dice
+
+            // Computer's turn
             int p2d1 = d1.roll();
             int p2d2 = d2.roll();
             int player2Roll = p2d1 + p2d2;
@@ -93,23 +91,23 @@ public class Round
         if (isEven(playerRoll))
         {
             System.out.println(player.getName() + " rolled an even number!");
-            // player gets 1 point
+            // Player gets 1 point
             player.setPoints(player.getPoints() + 1);
+            // Prints player and their points
             System.out.println(player + "\n");
-
         }
         // If player rolls odd number
         else
         {
             System.out.println(player.getName() + " rolled an odd number");
+            // Prints player and their points
             System.out.println(player + "\n");
         }
     }
 
-    // Checks to see if roll is even (return true if even)
+    // Returns true if a roll is even
     public boolean isEven(int roll)
     {
-        // If even roll
         if (roll % 2 == 0)
         {
             return true;

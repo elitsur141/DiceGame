@@ -4,7 +4,6 @@ This class keeps track of the attributes of each player
 */
 public class Player {
 
-    // Instance variables for player
     private String name;
     private int points;
 

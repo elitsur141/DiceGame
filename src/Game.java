@@ -98,15 +98,18 @@ public class Game
         round1Winner = currentRound.getWinner();
         r1done = true;
         System.out.println("Round 1 winner: " + round1Winner + "\n");
+        viewer.repaint();
         input.nextLine();
 
         // Plays the second round
         System.out.println("***Round 2*** \n");
+        viewer.repaint();
         currentRound = round2;
         currentRound.playRound();
         round2Winner = currentRound.getWinner();
         r2done = true;
         System.out.println("Round 2 winner: " + round2Winner + "\n");
+        viewer.repaint();
         input.nextLine();
 
         // Plays the third round
@@ -118,7 +121,6 @@ public class Game
         System.out.println("Round 3 winner: " + round3Winner + "\n");
         input.nextLine();
         displayResults();
-
     }
 
     // Displays who won each round
@@ -173,7 +175,7 @@ public class Game
         System.out.println("Round 1 winner: " + round1Winner + "\n");
         System.out.println("Round 2 winner: " + round2Winner + "\n");
         System.out.println("Round 3 winner: " + round3Winner + "\n");
-        // If it's not a tie
+        // Prints winner of the game
         if (userScore != compScore)
         {
             System.out.println("Winner: " + winner);
@@ -189,6 +191,7 @@ public class Game
         {
             System.out.println(winner);
         }
+        viewer.repaint();
     }
 
     // Prints instructions for game
